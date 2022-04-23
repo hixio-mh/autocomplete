@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -205,7 +204,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a managed Microsoft Active Directory domain",
-
           options: [
             {
               name: "--account",
@@ -349,7 +347,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -489,7 +486,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Describe the IAM policy for a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -668,7 +664,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Managed Microsoft AD domains",
-
           options: [
             {
               name: "--account",
@@ -842,7 +837,6 @@ const completionSpec: Fig.Spec = {
           name: "reset-admin-password",
           description:
             "Reset the admin password for a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -981,7 +975,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "set-iam-policy",
           description: "Set the IAM policy for a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -1133,7 +1126,6 @@ const completionSpec: Fig.Spec = {
               name: "create",
               description:
                 "Create a Microsoft Active Directory Trust between a Managed Microsoft AD domain and another domain",
-
               options: [
                 {
                   name: "--account",
@@ -1346,7 +1338,6 @@ const completionSpec: Fig.Spec = {
               name: "delete",
               description:
                 "Delete an Active Directory Trust between a Managed Microsoft AD domain and a target domain",
-
               options: [
                 {
                   name: "--account",
@@ -1502,7 +1493,6 @@ const completionSpec: Fig.Spec = {
               name: "update",
               description:
                 "Update target DNS IP addresses for a Managed Microsoft AD trust",
-
               options: [
                 {
                   name: "--account",
@@ -1668,7 +1658,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "validate-state",
               description: "Validate the state of a Managed Microsoft AD trust",
-
               options: [
                 {
                   name: "--account",
@@ -1953,7 +1942,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Managed Microsoft AD domain",
-
           options: [
             {
               name: "--account",
@@ -2296,7 +2284,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "cancel",
           description: "Cancel a Managed Microsoft AD operation",
-
           options: [
             {
               name: "--account",
@@ -2435,7 +2422,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Managed Microsoft AD operation",
-
           options: [
             {
               name: "--account",
@@ -2574,7 +2560,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Managed Microsoft AD operations",
-
           options: [
             {
               name: "--account",

@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Filestore instance",
-
           options: [
             {
               name: "--account",
@@ -223,7 +222,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Filestore instance",
-
           options: [
             {
               name: "--account",
@@ -386,7 +384,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show metadata for a Cloud Filestore instance",
-
           options: [
             {
               name: "--account",
@@ -544,7 +541,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Filestore instances",
-
           options: [
             {
               name: "--account",
@@ -742,7 +738,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Cloud Filestore instance",
-
           options: [
             {
               name: "--account",
@@ -1084,7 +1079,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "*(DEPRECATED)*  Describe a Cloud Filestore location",
-
           options: [
             {
               name: "--account",
@@ -1223,7 +1217,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "*(DEPRECATED)*  List all Cloud Filestore locations",
-
           options: [
             {
               name: "--account",
@@ -1535,7 +1528,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Filestore operation",
-
           options: [
             {
               name: "--account",
@@ -1693,7 +1685,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List all Cloud Filestore operations",
-
           options: [
             {
               name: "--account",
@@ -2025,7 +2016,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Filestore regions",
-
           options: [
             {
               name: "--account",
@@ -2332,7 +2322,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Filestore zones",
-
           options: [
             {
               name: "--account",

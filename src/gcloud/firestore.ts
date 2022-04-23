@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Google Cloud Firestore Native database",
-
           options: [
             {
               name: "--account",
@@ -282,7 +281,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "export",
       description: "Export Cloud Firestore documents to Google Cloud Storage",
-
       options: [
         {
           name: "--account",
@@ -436,7 +434,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "import",
       description: "Import Cloud Firestore documents from Google Cloud Storage",
-
       options: [
         {
           name: "--account",
@@ -598,7 +595,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "create",
               description: "Create a new composite index",
-
               options: [
                 {
                   name: "--account",
@@ -759,7 +755,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "delete",
               description: "Delete the given composite index",
-
               options: [
                 {
                   name: "--account",
@@ -898,7 +893,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe the given composite index",
-
               options: [
                 {
                   name: "--account",
@@ -1037,7 +1031,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List composite indexes",
-
               options: [
                 {
                   name: "--account",
@@ -1350,7 +1343,6 @@ const completionSpec: Fig.Spec = {
               name: "describe",
               description:
                 "Describe the index configuration of the given field",
-
               options: [
                 {
                   name: "--account",
@@ -1498,7 +1490,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List fields with non-default index settings",
-
               options: [
                 {
                   name: "--account",
@@ -1686,7 +1677,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "update",
               description: "Update the index configuration of the given field",
-
               options: [
                 {
                   name: "--account",
@@ -2124,7 +2114,6 @@ const completionSpec: Fig.Spec = {
           name: "cancel",
           description:
             "Cancel a currently-running Cloud Firestore admin operation",
-
           options: [
             {
               name: "--account",
@@ -2263,7 +2252,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a completed Cloud Firestore admin operation",
-
           options: [
             {
               name: "--account",
@@ -2403,7 +2391,6 @@ const completionSpec: Fig.Spec = {
           name: "describe",
           description:
             "Retrieves information about a Cloud Firestore admin operation",
-
           options: [
             {
               name: "--account",
@@ -2543,7 +2530,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List pending Cloud Firestore admin operations and their status",
-
           options: [
             {
               name: "--account",

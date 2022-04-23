@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new cloud access binding",
-
           options: [
             {
               name: "--account",
@@ -183,7 +182,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a cloud access binding",
-
           options: [
             {
               name: "--account",
@@ -336,7 +334,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show details about a cloud access binding",
-
           options: [
             {
               name: "--account",
@@ -489,7 +486,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List cloud access bindings under an organization",
-
           options: [
             {
               name: "--account",
@@ -672,7 +668,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing cloud access binding",
-
           options: [
             {
               name: "--account",
@@ -983,7 +978,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List conditions for an access level",
-
               options: [
                 {
                   name: "--account",
@@ -1266,7 +1260,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new access level",
-
           options: [
             {
               name: "--account",
@@ -1470,7 +1463,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an access level",
-
           options: [
             {
               name: "--account",
@@ -1623,7 +1615,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show details about an access level",
-
           options: [
             {
               name: "--account",
@@ -1771,7 +1762,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List access levels",
-
           options: [
             {
               name: "--account",
@@ -1954,7 +1944,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "replace-all",
           description: "Replace all existing access levels",
-
           options: [
             {
               name: "--account",
@@ -2114,7 +2103,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing access level",
-
           options: [
             {
               name: "--account",
@@ -2446,7 +2434,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new service perimeter",
-
           options: [
             {
               name: "--access-levels",
@@ -2675,7 +2662,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a service perimeter",
-
           options: [
             {
               name: "--account",
@@ -2828,7 +2814,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show details about a service perimeter",
-
           options: [
             {
               name: "--account",
@@ -2982,7 +2967,6 @@ const completionSpec: Fig.Spec = {
               name: "create",
               description:
                 "Create a dry-run mode configuration for a new or existing Service         Perimeter",
-
               options: [
                 {
                   name: "--access-levels",
@@ -3257,7 +3241,6 @@ const completionSpec: Fig.Spec = {
               name: "delete",
               description:
                 "Mark the Service Perimeter as deleted in the dry-run mode",
-
               options: [
                 {
                   name: "--account",
@@ -3411,7 +3394,6 @@ const completionSpec: Fig.Spec = {
               name: "describe",
               description:
                 "Display the dry-run mode configuration for a Service Perimeter",
-
               options: [
                 {
                   name: "--account",
@@ -3560,7 +3542,6 @@ const completionSpec: Fig.Spec = {
               name: "drop",
               description:
                 "Reset the dry-run mode configuration of a Service Perimeter",
-
               options: [
                 {
                   name: "--account",
@@ -3714,7 +3695,6 @@ const completionSpec: Fig.Spec = {
               name: "enforce",
               description:
                 "Enforces a Service Perimeter's dry-run configuration",
-
               options: [
                 {
                   name: "--account",
@@ -3868,7 +3848,6 @@ const completionSpec: Fig.Spec = {
               name: "enforce-all",
               description:
                 "Enforces the dry-run mode configuration for all Service Perimeters",
-
               options: [
                 {
                   name: "--account",
@@ -4022,7 +4001,6 @@ const completionSpec: Fig.Spec = {
               name: "list",
               description:
                 "List the effective dry-run configuration across all Service Perimeters",
-
               options: [
                 {
                   name: "--account",
@@ -4206,7 +4184,6 @@ const completionSpec: Fig.Spec = {
               name: "update",
               description:
                 "Update the dry-run mode configuration for a Service Perimeter",
-
               options: [
                 {
                   name: "--account",
@@ -4590,7 +4567,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List service perimeters",
-
           options: [
             {
               name: "--account",
@@ -4773,7 +4749,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "replace-all",
           description: "Replace all existing service perimeters",
-
           options: [
             {
               name: "--account",
@@ -4933,7 +4908,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing access zone",
-
           options: [
             {
               name: "--account",
@@ -5373,7 +5347,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new access policy",
-
           options: [
             {
               name: "--account",
@@ -5532,7 +5505,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an access policy",
-
           options: [
             {
               name: "--account",
@@ -5671,7 +5643,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show details about an access policy",
-
           options: [
             {
               name: "--account",
@@ -5810,7 +5781,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List access policies",
-
           options: [
             {
               name: "--account",
@@ -5994,7 +5964,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing access policy",
-
           options: [
             {
               name: "--account",

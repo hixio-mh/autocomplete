@@ -5,7 +5,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "analyze-iam-policy",
       description: "Analyzes IAM policies that match a request",
-
       options: [
         {
           name: "--account",
@@ -230,7 +229,6 @@ const completionSpec: Fig.Spec = {
       name: "analyze-iam-policy-longrunning",
       description:
         "Analyzes IAM policies that match a request asynchronously and writes the analysis results to Google Cloud Storage or BigQuery destination",
-
       options: [
         {
           name: "--account",
@@ -490,7 +488,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "export",
       description: "Export the cloud assets to Google Cloud Storage",
-
       options: [
         {
           name: "--account",
@@ -731,7 +728,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Asset Inventory Feed",
-
           options: [
             {
               name: "--account",
@@ -954,7 +950,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Asset Inventory Feed",
-
           options: [
             {
               name: "--account",
@@ -1100,7 +1095,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Asset Inventory Feed",
-
           options: [
             {
               name: "--account",
@@ -1246,7 +1240,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Asset Inventory Feeds",
-
           options: [
             {
               name: "--account",
@@ -1387,7 +1380,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing Cloud Asset Inventory Feed",
-
           options: [
             {
               name: "--account",
@@ -1786,7 +1778,6 @@ const completionSpec: Fig.Spec = {
       name: "get-history",
       description:
         "Get the update history of assets that overlaps a time window",
-
       options: [
         {
           name: "--account",
@@ -1971,7 +1962,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Asset Inventory operation",
-
           options: [
             {
               name: "--account",
@@ -2240,7 +2230,6 @@ const completionSpec: Fig.Spec = {
       name: "search-all-iam-policies",
       description:
         "Searches all IAM policies within the specified accessible scope, such as a project, folder or organization",
-
       options: [
         {
           name: "--account",
@@ -2434,7 +2423,6 @@ const completionSpec: Fig.Spec = {
       name: "search-all-resources",
       description:
         "Searches all Cloud resources within the specified accessible scope, such as a project, folder or organization",
-
       options: [
         {
           name: "--account",

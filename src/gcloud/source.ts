@@ -10,7 +10,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show details about the configuration of a project",
-
           options: [
             {
               name: "--account",
@@ -144,7 +143,6 @@ const completionSpec: Fig.Spec = {
           name: "update",
           description:
             "Update the Cloud Source Repositories configuration of the current project",
-
           options: [
             {
               name: "--account",
@@ -484,7 +482,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "clone",
           description: "Clone a cloud source repository",
-
           options: [
             {
               name: "--account",
@@ -635,7 +632,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a cloud source repository",
-
           options: [
             {
               name: "--account",
@@ -774,7 +770,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a cloud source repository",
-
           options: [
             {
               name: "--account",
@@ -917,7 +912,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a cloud source repository",
-
           options: [
             {
               name: "--account",
@@ -1056,7 +1050,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Get the IAM policy for the named cloud source repository",
-
           options: [
             {
               name: "--account",
@@ -1234,7 +1227,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List the repositories the currently active project",
-
           options: [
             {
               name: "--account",
@@ -1407,7 +1399,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "set-iam-policy",
           description: "Set the IAM policy for the named repository",
-
           options: [
             {
               name: "--account",
@@ -1553,7 +1544,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update the configuration of a Cloud Source Repository",
-
           options: [
             {
               name: "--account",

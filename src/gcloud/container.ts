@@ -15,7 +15,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "create",
               description: "Create a Binary Authorization attestation",
-
               options: [
                 {
                   name: "--account",
@@ -217,7 +216,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List Binary Authorization attestations",
-
               options: [
                 {
                   name: "--account",
@@ -562,7 +560,6 @@ const completionSpec: Fig.Spec = {
               name: "add-iam-policy-binding",
               description:
                 "Add IAM policy binding to a Binary Authorization attestor",
-
               options: [
                 {
                   name: "--account",
@@ -722,7 +719,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "create",
               description: "Create an Attestor",
-
               options: [
                 {
                   name: "--account",
@@ -890,7 +886,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "delete",
               description: "Delete an Attestor",
-
               options: [
                 {
                   name: "--account",
@@ -1029,7 +1024,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe an Attestor",
-
               options: [
                 {
                   name: "--account",
@@ -1168,7 +1162,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "get-iam-policy",
               description: "Get the IAM policy for an attestor",
-
               options: [
                 {
                   name: "--account",
@@ -1352,7 +1345,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List Attestors associated with the current project",
-
               options: [
                 {
                   name: "--account",
@@ -1535,7 +1527,6 @@ const completionSpec: Fig.Spec = {
                 {
                   name: "add",
                   description: "Add a public key to an Attestor",
-
                   options: [
                     {
                       name: "--account",
@@ -1795,7 +1786,6 @@ const completionSpec: Fig.Spec = {
                 {
                   name: "remove",
                   description: "Remove a public key from an Attestor",
-
                   options: [
                     {
                       name: "--account",
@@ -1944,7 +1934,6 @@ const completionSpec: Fig.Spec = {
                 {
                   name: "update",
                   description: "Update a public key on an Attestor",
-
                   options: [
                     {
                       name: "--account",
@@ -2244,7 +2233,6 @@ const completionSpec: Fig.Spec = {
               name: "remove-iam-policy-binding",
               description:
                 "Remove IAM policy binding of a Binary Authorization attestor",
-
               options: [
                 {
                   name: "--account",
@@ -2404,7 +2392,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "set-iam-policy",
               description: "Set the IAM policy for an attestor",
-
               options: [
                 {
                   name: "--account",
@@ -2551,7 +2538,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "update",
               description: "Update an existing Attestor",
-
               options: [
                 {
                   name: "--account",
@@ -2829,7 +2815,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create-signature-payload",
           description: "Create a JSON container image signature object",
-
           options: [
             {
               name: "--account",
@@ -2978,7 +2963,6 @@ const completionSpec: Fig.Spec = {
               name: "add-iam-policy-binding",
               description:
                 "Add IAM policy binding to a Binary Authorization policy",
-
               options: [
                 {
                   name: "--account",
@@ -3133,7 +3117,6 @@ const completionSpec: Fig.Spec = {
               name: "export",
               description:
                 "Export the Binary Authorization policy for the current project",
-
               options: [
                 {
                   name: "--account",
@@ -3267,7 +3250,6 @@ const completionSpec: Fig.Spec = {
               name: "get-iam-policy",
               description:
                 "Get the IAM policy for a Binary Authorization policy",
-
               options: [
                 {
                   name: "--account",
@@ -3446,7 +3428,6 @@ const completionSpec: Fig.Spec = {
               name: "import",
               description:
                 "Import a Binary Authorization policy to the current project",
-
               options: [
                 {
                   name: "--account",
@@ -3591,7 +3572,6 @@ const completionSpec: Fig.Spec = {
               name: "remove-iam-policy-binding",
               description:
                 "Remove IAM policy binding of a Binary Authorization policy",
-
               options: [
                 {
                   name: "--account",
@@ -3746,7 +3726,6 @@ const completionSpec: Fig.Spec = {
               name: "set-iam-policy",
               description:
                 "Set the IAM policy for a Binary Authorization policy",
-
               options: [
                 {
                   name: "--account",
@@ -4148,7 +4127,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a cluster for running containers",
-
           options: [
             {
               name: "--accelerator",
@@ -5135,7 +5113,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an existing cluster for running containers",
-
           options: [
             {
               name: "--account",
@@ -5297,7 +5274,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an existing cluster for running containers",
-
           options: [
             {
               name: "--account",
@@ -5454,7 +5430,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "get-credentials",
           description: "Fetch credentials for a running cluster",
-
           options: [
             {
               name: "--account",
@@ -5617,7 +5592,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing clusters for running containers",
-
           options: [
             {
               name: "--account",
@@ -5814,7 +5788,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "resize",
           description: "Resizes an existing cluster for running containers",
-
           options: [
             {
               name: "--account",
@@ -6005,7 +5978,6 @@ const completionSpec: Fig.Spec = {
           name: "update",
           description:
             "Update cluster settings for an existing container cluster",
-
           options: [
             {
               name: "--account",
@@ -6690,7 +6662,6 @@ const completionSpec: Fig.Spec = {
           name: "upgrade",
           description:
             "Upgrade the Kubernetes version of an existing container cluster",
-
           options: [
             {
               name: "--account",
@@ -7035,7 +7006,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "get-server-config",
       description: "Get Kubernetes Engine server config",
-
       options: [
         {
           name: "--account",
@@ -7227,7 +7197,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "create",
               description: "Create a new membership for a cluster",
-
               options: [
                 {
                   name: "--account",
@@ -7409,7 +7378,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "delete",
               description: "Delete a membership",
-
               options: [
                 {
                   name: "--account",
@@ -7562,7 +7530,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe a membership",
-
               options: [
                 {
                   name: "--account",
@@ -7710,7 +7677,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List memberships",
-
               options: [
                 {
                   name: "--account",
@@ -7888,7 +7854,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "register",
               description: "Register a cluster with Hub",
-
               options: [
                 {
                   name: "--account",
@@ -8098,7 +8063,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "unregister",
               description: "Unregister a cluster from Hub",
-
               options: [
                 {
                   name: "--account",
@@ -8278,7 +8242,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "update",
               description: "Update a membership",
-
               options: [
                 {
                   name: "--account",
@@ -8720,7 +8683,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "add-tag",
           description: "Adds tags to existing image",
-
           options: [
             {
               name: "--account",
@@ -8867,7 +8829,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete existing images",
-
           options: [
             {
               name: "--account",
@@ -9011,7 +8972,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Lists information about the specified image",
-
           options: [
             {
               name: "--account",
@@ -9150,7 +9110,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing images",
-
           options: [
             {
               name: "--account",
@@ -9338,7 +9297,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list-tags",
           description: "List tags and digests for the specified image",
-
           options: [
             {
               name: "--account",
@@ -9517,7 +9475,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "untag",
           description: "Remove existing image tags",
-
           options: [
             {
               name: "--account",
@@ -9791,7 +9748,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a node pool in a running cluster",
-
           options: [
             {
               name: "--accelerator",
@@ -10273,7 +10229,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an existing node pool in a running cluster",
-
           options: [
             {
               name: "--account",
@@ -10445,7 +10400,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an existing node pool for a cluster",
-
           options: [
             {
               name: "--account",
@@ -10612,7 +10566,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing node pools for a cluster",
-
           options: [
             {
               name: "--account",
@@ -10819,7 +10772,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "rollback",
           description: "Rollback a node-pool upgrade",
-
           options: [
             {
               name: "--account",
@@ -10991,7 +10943,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Updates a node pool in a running cluster",
-
           options: [
             {
               name: "--account",
@@ -11393,7 +11344,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an operation",
-
           options: [
             {
               name: "--account",
@@ -11550,7 +11500,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List operations for container clusters",
-
           options: [
             {
               name: "--account",
@@ -11742,7 +11691,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "wait",
           description: "Poll an operation for completion",
-
           options: [
             {
               name: "--account",
@@ -12054,7 +12002,6 @@ const completionSpec: Fig.Spec = {
           name: "list-usable",
           description:
             "List subnets usable for cluster creation in a specific project",
-
           options: [
             {
               name: "--account",

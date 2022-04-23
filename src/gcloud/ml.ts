@@ -10,7 +10,6 @@ const completionSpec: Fig.Spec = {
           name: "analyze-entities",
           description:
             "Use Google Cloud Natural Language API to identify entities in text",
-
           options: [
             {
               name: "--account",
@@ -196,7 +195,6 @@ const completionSpec: Fig.Spec = {
           name: "analyze-entity-sentiment",
           description:
             "Use Google Cloud Natural Language API to identify entity-level sentiment",
-
           options: [
             {
               name: "--account",
@@ -382,7 +380,6 @@ const completionSpec: Fig.Spec = {
           name: "analyze-sentiment",
           description:
             "Use Google Cloud Natural Language API to identify sentiments in a text",
-
           options: [
             {
               name: "--account",
@@ -568,7 +565,6 @@ const completionSpec: Fig.Spec = {
           name: "analyze-syntax",
           description:
             "Use Google Cloud Natural Language API to identify linguistic information",
-
           options: [
             {
               name: "--account",
@@ -753,7 +749,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "classify-text",
           description: "Classifies input document into categories",
-
           options: [
             {
               name: "--account",
@@ -1066,7 +1061,6 @@ const completionSpec: Fig.Spec = {
               name: "describe",
               description:
                 "Get description of a long-running speech recognition operation",
-
               options: [
                 {
                   name: "--account",
@@ -1206,7 +1200,6 @@ const completionSpec: Fig.Spec = {
               name: "wait",
               description:
                 "Poll long-running speech recognition operation until it completes",
-
               options: [
                 {
                   name: "--account",
@@ -1476,7 +1469,6 @@ const completionSpec: Fig.Spec = {
           name: "recognize",
           description:
             "Get transcripts of short (less than 60 seconds) audio from an audio file",
-
           options: [
             {
               name: "--account",
@@ -1685,7 +1677,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "recognize-long-running",
           description: "Get transcripts of longer audio from an audio file",
-
           options: [
             {
               name: "--account",
@@ -2033,7 +2024,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-explicit-content",
           description: "Detect explicit content in videos",
-
           options: [
             {
               name: "--account",
@@ -2212,7 +2202,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-labels",
           description: "Detect general labels for videos",
-
           options: [
             {
               name: "--account",
@@ -2402,7 +2391,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-shot-changes",
           description: "Detect shot changes in videos",
-
           options: [
             {
               name: "--account",
@@ -2587,7 +2575,6 @@ const completionSpec: Fig.Spec = {
               name: "describe",
               description:
                 "Get description of a long-running video analysis operation",
-
               options: [
                 {
                   name: "--account",
@@ -2736,7 +2723,6 @@ const completionSpec: Fig.Spec = {
               name: "wait",
               description:
                 "Poll long-running video analysis operation until it completes",
-
               options: [
                 {
                   name: "--account",
@@ -3148,7 +3134,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-document",
           description: "Detect dense text in an image",
-
           options: [
             {
               name: "--account",
@@ -3296,7 +3281,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-faces",
           description: "Detect faces within an image",
-
           options: [
             {
               name: "--account",
@@ -3444,7 +3428,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-image-properties",
           description: "Detect general attributes of an image",
-
           options: [
             {
               name: "--account",
@@ -3583,7 +3566,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-labels",
           description: "Detect broad sets of categories within an image",
-
           options: [
             {
               name: "--account",
@@ -3732,7 +3714,6 @@ const completionSpec: Fig.Spec = {
           name: "detect-landmarks",
           description:
             "Detect popular natural and man-made structures within an image",
-
           options: [
             {
               name: "--account",
@@ -3880,7 +3861,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-logos",
           description: "Detect popular product logos within an image",
-
           options: [
             {
               name: "--account",
@@ -4029,7 +4009,6 @@ const completionSpec: Fig.Spec = {
           name: "detect-objects",
           description:
             "Detect and extract multiple objects in an image with object localization",
-
           options: [
             {
               name: "--account",
@@ -4168,7 +4147,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-safe-search",
           description: "Detect explicit content in an image",
-
           options: [
             {
               name: "--account",
@@ -4307,7 +4285,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "detect-text",
           description: "Detect and extract text within an image",
-
           options: [
             {
               name: "--account",
@@ -4456,7 +4433,6 @@ const completionSpec: Fig.Spec = {
           name: "detect-text-pdf",
           description:
             "Detect and transcribe text from PDF files stored in Google Cloud Storage",
-
           options: [
             {
               name: "--account",
@@ -4614,7 +4590,6 @@ const completionSpec: Fig.Spec = {
           name: "detect-text-tiff",
           description:
             "Detect and transcribe text from TIFF files stored in Google Cloud Storage",
-
           options: [
             {
               name: "--account",
@@ -4772,7 +4747,6 @@ const completionSpec: Fig.Spec = {
           name: "detect-web",
           description:
             "Detect entities in an image from similar images on the web",
-
           options: [
             {
               name: "--account",
@@ -4920,7 +4894,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "suggest-crop",
           description: "Suggest a bounding box in an image",
-
           options: [
             {
               name: "--account",

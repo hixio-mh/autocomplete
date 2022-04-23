@@ -11,7 +11,6 @@ const completionSpec: Fig.Spec = {
           name: "build",
           description:
             "Builds a flex template file from the specified parameters",
-
           options: [
             {
               name: "--account",
@@ -230,7 +229,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "run",
           description: "Runs a job from the specified path",
-
           options: [
             {
               name: "--account",
@@ -654,7 +652,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "cancel",
           description: "Cancels all jobs that match the command line arguments",
-
           options: [
             {
               name: "--account",
@@ -802,7 +799,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Outputs the Job object resulting from the Get API",
-
           options: [
             {
               name: "--account",
@@ -954,7 +950,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "drain",
           description: "Drains all jobs that match the command line arguments",
-
           options: [
             {
               name: "--account",
@@ -1103,7 +1098,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "Lists all jobs in a particular project, optionally filtered by region",
-
           options: [
             {
               name: "--account",
@@ -1321,7 +1315,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "run",
           description: "Runs a job from the specified path",
-
           options: [
             {
               name: "--account",
@@ -1598,7 +1591,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "show",
           description: "Shows a short description of the given job",
-
           options: [
             {
               name: "--account",
@@ -1888,7 +1880,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "query",
           description: "Execute the user-specified SQL query on Dataflow",
-
           options: [
             {
               name: "--account",

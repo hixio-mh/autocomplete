@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Memorystore Redis instance",
-
           options: [
             {
               name: "--account",
@@ -279,7 +278,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Redis instance",
-
           options: [
             {
               name: "--account",
@@ -433,7 +431,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show metadata for a Memorystore Redis instance",
-
           options: [
             {
               name: "--account",
@@ -583,7 +580,6 @@ const completionSpec: Fig.Spec = {
           name: "export",
           description:
             "Export data from a Memorystore Redis instance to Google Cloud Storage",
-
           options: [
             {
               name: "--account",
@@ -746,7 +742,6 @@ const completionSpec: Fig.Spec = {
           name: "failover",
           description:
             "Failover a standard tier Cloud Memorystore for Redis instance from the master node to its replica",
-
           options: [
             {
               name: "--account",
@@ -912,7 +907,6 @@ const completionSpec: Fig.Spec = {
           name: "import",
           description:
             "Import data to a Memorystore Redis instance from Google Cloud Storage",
-
           options: [
             {
               name: "--account",
@@ -1074,7 +1068,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Memorystore Redis instances",
-
           options: [
             {
               name: "--account",
@@ -1262,7 +1255,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update Memorystore Redis instances",
-
           options: [
             {
               name: "--account",
@@ -1481,7 +1473,6 @@ const completionSpec: Fig.Spec = {
           name: "upgrade",
           description:
             "Upgrade a Memorystore for Redis instance to a specified Redis version",
-
           options: [
             {
               name: "--account",
@@ -1780,7 +1771,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "cancel",
           description: "Cancel a Memorystore Redis import or export operation",
-
           options: [
             {
               name: "--account",
@@ -1929,7 +1919,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show metadata for a Memorystore Redis operation",
-
           options: [
             {
               name: "--account",
@@ -2078,7 +2067,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Memorystore Redis operations",
-
           options: [
             {
               name: "--account",
@@ -2400,7 +2388,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Show metadata for a Memorystore Redis region",
-
           options: [
             {
               name: "--account",
@@ -2539,7 +2526,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Memorystore Redis regions",
-
           options: [
             {
               name: "--account",
@@ -2851,7 +2837,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Memorystore Redis zones",
-
           options: [
             {
               name: "--account",

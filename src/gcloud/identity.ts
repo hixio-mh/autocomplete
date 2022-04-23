@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new group",
-
           options: [
             {
               name: "--account",
@@ -212,7 +211,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an existing group",
-
           options: [
             {
               name: "--account",
@@ -350,7 +348,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an existing group",
-
           options: [
             {
               name: "--account",
@@ -492,7 +489,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "add",
               description: "Create a new membership in an existing group",
-
               options: [
                 {
                   name: "--account",
@@ -657,7 +653,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "delete",
               description: "Delete a membership from an existing group",
-
               options: [
                 {
                   name: "--account",
@@ -812,7 +807,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe a membership in a group",
-
               options: [
                 {
                   name: "--account",
@@ -967,7 +961,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List memberships in an existing group",
-
               options: [
                 {
                   name: "--account",
@@ -1173,7 +1166,6 @@ const completionSpec: Fig.Spec = {
               name: "modify-membership-roles",
               description:
                 "Add/remove/modify membership roles of a membership in a group",
-
               options: [
                 {
                   name: "--account",
@@ -1478,7 +1470,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "search",
           description: "Searches for Groups matching a specified query",
-
           options: [
             {
               name: "--account",
@@ -1672,7 +1663,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a group",
-
           options: [
             {
               name: "--account",

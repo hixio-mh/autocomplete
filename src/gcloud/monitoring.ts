@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new Cloud Monitoring dashboard",
-
           options: [
             {
               name: "--account",
@@ -162,7 +161,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Monitoring dashboard",
-
           options: [
             {
               name: "--account",
@@ -301,7 +299,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Monitoring dashboard",
-
           options: [
             {
               name: "--account",
@@ -440,7 +437,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Monitoring dashboards",
-
           options: [
             {
               name: "--account",
@@ -618,7 +614,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Cloud Monitoring dashboard",
-
           options: [
             {
               name: "--account",

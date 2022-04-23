@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create and initialize a Cloud Composer environment",
-
           options: [
             {
               name: "--account",
@@ -400,7 +399,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete one or more Cloud Composer environments",
-
           options: [
             {
               name: "--account",
@@ -554,7 +552,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Get details about a Cloud Composer environment",
-
           options: [
             {
               name: "--account",
@@ -704,7 +701,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the Cloud Composer environments under a project and location",
-
           options: [
             {
               name: "--account",
@@ -894,7 +890,6 @@ const completionSpec: Fig.Spec = {
           name: "run",
           description:
             "Run an Airflow sub-command remotely in a Cloud Composer environment",
-
           options: [
             {
               name: "--account",
@@ -1067,7 +1062,6 @@ const completionSpec: Fig.Spec = {
                   name: "delete",
                   description:
                     "Delete DAG files from an Cloud Composer environment's Cloud Storage bucket",
-
                   options: [
                     {
                       name: "--account",
@@ -1228,7 +1222,6 @@ const completionSpec: Fig.Spec = {
                   name: "export",
                   description:
                     "Export DAGs from an environment into local storage or Cloud Storage",
-
                   options: [
                     {
                       name: "--account",
@@ -1404,7 +1397,6 @@ const completionSpec: Fig.Spec = {
                   name: "import",
                   description:
                     "Import DAGs from local storage or Cloud Storage into an environment",
-
                   options: [
                     {
                       name: "--account",
@@ -1580,7 +1572,6 @@ const completionSpec: Fig.Spec = {
                   name: "list",
                   description:
                     "List the DAG files for a Cloud Composer environment",
-
                   options: [
                     {
                       name: "--account",
@@ -1869,7 +1860,6 @@ const completionSpec: Fig.Spec = {
                   name: "delete",
                   description:
                     "Delete data from an Cloud Composer environment's Cloud Storage bucket",
-
                   options: [
                     {
                       name: "--account",
@@ -2030,7 +2020,6 @@ const completionSpec: Fig.Spec = {
                   name: "export",
                   description:
                     "Export data from an environment into local storage or Cloud Storage",
-
                   options: [
                     {
                       name: "--account",
@@ -2206,7 +2195,6 @@ const completionSpec: Fig.Spec = {
                   name: "import",
                   description:
                     "Import data from local storage or Cloud Storage into an environment",
-
                   options: [
                     {
                       name: "--account",
@@ -2381,7 +2369,6 @@ const completionSpec: Fig.Spec = {
                 {
                   name: "list",
                   description: "List the data for a Cloud Composer environment",
-
                   options: [
                     {
                       name: "--account",
@@ -2670,7 +2657,6 @@ const completionSpec: Fig.Spec = {
                   name: "delete",
                   description:
                     "Delete plugins from an Cloud Composer environment's Cloud Storage bucket",
-
                   options: [
                     {
                       name: "--account",
@@ -2831,7 +2817,6 @@ const completionSpec: Fig.Spec = {
                   name: "export",
                   description:
                     "Export plugins from an environment into local storage or Cloud Storage",
-
                   options: [
                     {
                       name: "--account",
@@ -3007,7 +2992,6 @@ const completionSpec: Fig.Spec = {
                   name: "import",
                   description:
                     "Import plugins from local storage or Cloud Storage into an environment",
-
                   options: [
                     {
                       name: "--account",
@@ -3183,7 +3167,6 @@ const completionSpec: Fig.Spec = {
                   name: "list",
                   description:
                     "List the plugins for a Cloud Composer environment",
-
                   options: [
                     {
                       name: "--account",
@@ -3597,7 +3580,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update properties of a Cloud Composer environment",
-
           options: [
             {
               name: "--account",
@@ -4005,7 +3987,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete one or more completed Cloud Composer operations",
-
           options: [
             {
               name: "--account",
@@ -4154,7 +4135,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Get details about an asynchronous operation",
-
           options: [
             {
               name: "--account",
@@ -4303,7 +4283,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "Lists environment operations",
-
           options: [
             {
               name: "--account",
@@ -4492,7 +4471,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "wait",
           description: "Wait for asynchronous operation to complete",
-
           options: [
             {
               name: "--account",

@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "deploy",
           description: "Deploy an API proxy to an environment",
-
           options: [
             {
               name: "--account",
@@ -183,7 +182,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an Apigee API proxy",
-
           options: [
             {
               name: "--account",
@@ -336,7 +334,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee API proxies",
-
           options: [
             {
               name: "--account",
@@ -524,7 +521,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "undeploy",
           description: "Undeploy an Apigee API proxy from an environment",
-
           options: [
             {
               name: "--account",
@@ -827,7 +823,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an Apigee application",
-
           options: [
             {
               name: "--account",
@@ -976,7 +971,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee applications",
-
           options: [
             {
               name: "--account",
@@ -1309,7 +1303,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an Apigee API proxy deployment",
-
           options: [
             {
               name: "--account",
@@ -1476,7 +1469,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee API proxy deployments",
-
           options: [
             {
               name: "--account",
@@ -1828,7 +1820,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an Apigee developer",
-
           options: [
             {
               name: "--account",
@@ -1977,7 +1968,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee developers by email address",
-
           options: [
             {
               name: "--account",
@@ -2299,7 +2289,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee deployment environments",
-
           options: [
             {
               name: "--account",
@@ -2622,7 +2611,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List Apigee organizations and their paired Cloud Platform projects",
-
           options: [
             {
               name: "--account",
@@ -2934,7 +2922,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create an Apigee API product",
-
           options: [
             {
               name: "--account",
@@ -3212,7 +3199,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an Apigee API product",
-
           options: [
             {
               name: "--account",
@@ -3361,7 +3347,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an Apigee API product",
-
           options: [
             {
               name: "--account",
@@ -3510,7 +3495,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Apigee API products",
-
           options: [
             {
               name: "--account",
@@ -3698,7 +3682,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing Apigee API product",
-
           options: [
             {
               name: "--account",

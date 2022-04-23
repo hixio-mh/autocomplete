@@ -10,7 +10,6 @@ const completionSpec: Fig.Spec = {
           name: "create",
           description:
             "Add debug logpoints to a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -198,7 +197,6 @@ const completionSpec: Fig.Spec = {
           name: "delete",
           description:
             "Delete debug logpoints for a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -369,7 +367,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the debug logpoints for a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -719,7 +716,6 @@ const completionSpec: Fig.Spec = {
           name: "create",
           description:
             "Create debug snapshots for a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -900,7 +896,6 @@ const completionSpec: Fig.Spec = {
           name: "delete",
           description:
             "Delete debug snapshots for a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -1071,7 +1066,6 @@ const completionSpec: Fig.Spec = {
           name: "describe",
           description:
             "Describe the debug snapshots for a Cloud Debugger debug target         (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -1232,7 +1226,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the debug snapshots for a Cloud Debugger debug target (debuggee)",
-
           options: [
             {
               name: "--account",
@@ -1438,7 +1431,6 @@ const completionSpec: Fig.Spec = {
           name: "wait",
           description:
             "Wait for debug snapshots on a Cloud Debugger debug target (debuggee) to         complete",
-
           options: [
             {
               name: "--account",
@@ -1793,7 +1785,6 @@ const completionSpec: Fig.Spec = {
           name: "gen-repo-info-file",
           description:
             "Generates repository information files for the Cloud Debugger",
-
           options: [
             {
               name: "--account",
@@ -2081,7 +2072,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the debug targets (debuggees) registered with the Cloud Debugger",
-
           options: [
             {
               name: "--account",

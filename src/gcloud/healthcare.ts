@@ -10,7 +10,6 @@ const completionSpec: Fig.Spec = {
           name: "add-iam-policy-binding",
           description:
             "Add an IAM policy binding to a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -199,7 +198,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -362,7 +360,6 @@ const completionSpec: Fig.Spec = {
           name: "deidentify",
           description:
             "Create a new Cloud Healthcare API dataset containing de-identified data from the source dataset",
-
           options: [
             {
               name: "--account",
@@ -551,7 +548,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -699,7 +695,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -848,7 +843,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Retrieve the IAM policy for a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -1036,7 +1030,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Healthcare API datasets",
-
           options: [
             {
               name: "--account",
@@ -1225,7 +1218,6 @@ const completionSpec: Fig.Spec = {
           name: "remove-iam-policy-binding",
           description:
             "Remove an IAM policy binding to a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -1419,7 +1411,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "set-iam-policy",
           description: "Set the IAM policy for a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -1575,7 +1566,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Cloud Healthcare API dataset",
-
           options: [
             {
               name: "--account",
@@ -1867,7 +1857,6 @@ const completionSpec: Fig.Spec = {
           name: "add-iam-policy-binding",
           description:
             "Add an IAM policy binding to a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -2065,7 +2054,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -2232,7 +2220,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -2389,7 +2376,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -2551,7 +2537,6 @@ const completionSpec: Fig.Spec = {
               name: "bq",
               description:
                 "Export a Cloud Healthcare API API DICOM store to BigQuery",
-
               options: [
                 {
                   name: "--account",
@@ -2730,7 +2715,6 @@ const completionSpec: Fig.Spec = {
               name: "gcs",
               description:
                 "Export a Cloud Healthcare API DICOM store to Google Cloud Storage",
-
               options: [
                 {
                   name: "--account",
@@ -3044,7 +3028,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Retrieve the IAM policy for a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -3246,7 +3229,6 @@ const completionSpec: Fig.Spec = {
               name: "gcs",
               description:
                 "Import DICOM objects into a Cloud Healthcare API DICOM store",
-
               options: [
                 {
                   name: "--account",
@@ -3549,7 +3531,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Healthcare API DICOM stores",
-
           options: [
             {
               name: "--account",
@@ -3748,7 +3729,6 @@ const completionSpec: Fig.Spec = {
           name: "remove-iam-policy-binding",
           description:
             "Remove an IAM policy binding from a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -3952,7 +3932,6 @@ const completionSpec: Fig.Spec = {
           name: "set-iam-policy",
           description:
             "Set the IAM policy for a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -4117,7 +4096,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Cloud Healthcare API DICOM store",
-
           options: [
             {
               name: "--account",
@@ -4419,7 +4397,6 @@ const completionSpec: Fig.Spec = {
           name: "add-iam-policy-binding",
           description:
             "Add an IAM policy binding to a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -4617,7 +4594,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -4799,7 +4775,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -4956,7 +4931,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -5118,7 +5092,6 @@ const completionSpec: Fig.Spec = {
               name: "bq",
               description:
                 "Export Cloud Healthcare API FHIR resources to BigQuery",
-
               options: [
                 {
                   name: "--account",
@@ -5312,7 +5285,6 @@ const completionSpec: Fig.Spec = {
               name: "gcs",
               description:
                 "Export Cloud Healthcare API FHIR resources to Google Cloud Storage",
-
               options: [
                 {
                   name: "--account",
@@ -5616,7 +5588,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Retrieve the IAM policy for a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -5818,7 +5789,6 @@ const completionSpec: Fig.Spec = {
               name: "gcs",
               description:
                 "Import FHIR resources from Google Cloud Storage into a Cloud Healthcare API FHIR store",
-
               options: [
                 {
                   name: "--account",
@@ -6137,7 +6107,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Healthcare API FHIR stores",
-
           options: [
             {
               name: "--account",
@@ -6336,7 +6305,6 @@ const completionSpec: Fig.Spec = {
           name: "remove-iam-policy-binding",
           description:
             "Remove an IAM policy binding from a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -6540,7 +6508,6 @@ const completionSpec: Fig.Spec = {
           name: "set-iam-policy",
           description:
             "Set the IAM policy for a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -6705,7 +6672,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update a Cloud Healthcare API FHIR store",
-
           options: [
             {
               name: "--account",
@@ -7012,7 +6978,6 @@ const completionSpec: Fig.Spec = {
           name: "add-iam-policy-binding",
           description:
             "Add an IAM policy binding to a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -7210,7 +7175,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -7378,7 +7342,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -7535,7 +7498,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -7693,7 +7655,6 @@ const completionSpec: Fig.Spec = {
           name: "get-iam-policy",
           description:
             "Retrieve the IAM policy for a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -7890,7 +7851,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Healthcare API HL7v2 stores",
-
           options: [
             {
               name: "--account",
@@ -8089,7 +8049,6 @@ const completionSpec: Fig.Spec = {
           name: "remove-iam-policy-binding",
           description:
             "Remove an IAM policy binding from a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -8293,7 +8252,6 @@ const completionSpec: Fig.Spec = {
           name: "set-iam-policy",
           description:
             "Set the IAM policy for a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -8458,7 +8416,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Create a Cloud Healthcare API HL7v2 store",
-
           options: [
             {
               name: "--account",
@@ -8760,7 +8717,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe a Cloud Healthcare API operation",
-
           options: [
             {
               name: "--account",
@@ -8917,7 +8873,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List Cloud Healthcare API operations",
-
           options: [
             {
               name: "--account",

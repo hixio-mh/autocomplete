@@ -10,7 +10,6 @@ const completionSpec: Fig.Spec = {
           name: "describe",
           description:
             "Describes the configuration for a given version of a service",
-
           options: [
             {
               name: "--account",
@@ -158,7 +157,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "Lists the configurations for a given service",
-
           options: [
             {
               name: "--account",
@@ -482,7 +480,6 @@ const completionSpec: Fig.Spec = {
           name: "describe",
           description:
             "Describes an operation resource for a given operation name",
-
           options: [
             {
               name: "--account",
@@ -620,7 +617,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List operations for a project",
-
           options: [
             {
               name: "--account",
@@ -808,7 +804,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "wait",
           description: "Waits for an operation to complete",
-
           options: [
             {
               name: "--account",
@@ -1080,7 +1075,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "add-iam-policy-binding",
           description: "Add IAM policy binding to a service",
-
           options: [
             {
               name: "--account",
@@ -1241,7 +1235,6 @@ const completionSpec: Fig.Spec = {
           name: "check-iam-policy",
           description:
             "Returns information about a member's permissions on a service",
-
           options: [
             {
               name: "--account",
@@ -1380,7 +1373,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Deletes a service from Google Service Management",
-
           options: [
             {
               name: "--account",
@@ -1524,7 +1516,6 @@ const completionSpec: Fig.Spec = {
           name: "deploy",
           description:
             "Deploys a service configuration for the given service name",
-
           options: [
             {
               name: "--account",
@@ -1678,7 +1669,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describes a service given a service name",
-
           options: [
             {
               name: "--account",
@@ -1816,7 +1806,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "get-iam-policy",
           description: "Describes the IAM policy for a service",
-
           options: [
             {
               name: "--account",
@@ -1995,7 +1984,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List services for a project",
-
           options: [
             {
               name: "--account",
@@ -2168,7 +2156,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "remove-iam-policy-binding",
           description: "Remove IAM policy binding from a service",
-
           options: [
             {
               name: "--account",
@@ -2329,7 +2316,6 @@ const completionSpec: Fig.Spec = {
           name: "undelete",
           description:
             "Undeletes a service configuration that was previously deleted",
-
           options: [
             {
               name: "--account",

@@ -9,7 +9,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "cancel",
           description: "Cancel a running AI Platform job",
-
           options: [
             {
               name: "--account",
@@ -147,7 +146,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an AI Platform job",
-
           options: [
             {
               name: "--account",
@@ -290,7 +288,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing AI Platform jobs",
-
           options: [
             {
               name: "--account",
@@ -468,7 +465,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "stream-logs",
           description: "Show logs from a running AI Platform job",
-
           options: [
             {
               name: "--account",
@@ -634,7 +630,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "prediction",
               description: "Start an AI Platform batch prediction job",
-
               options: [
                 {
                   name: "--account",
@@ -885,7 +880,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "training",
               description: "Submit an AI Platform training job",
-
               options: [
                 {
                   name: "--account",
@@ -1462,7 +1456,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an AI Platform job",
-
           options: [
             {
               name: "--account",
@@ -1759,7 +1752,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "predict",
           description: "Run prediction locally",
-
           options: [
             {
               name: "--account",
@@ -1952,7 +1944,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "train",
           description: "Run an AI Platform training job locally",
-
           options: [
             {
               name: "--account",
@@ -2300,7 +2291,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "add-iam-policy-binding",
           description: "Add IAM policy binding for a model",
-
           options: [
             {
               name: "--account",
@@ -2483,7 +2473,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new AI Platform model",
-
           options: [
             {
               name: "--account",
@@ -2665,7 +2654,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an existing AI Platform model",
-
           options: [
             {
               name: "--account",
@@ -2827,7 +2815,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an existing AI Platform model",
-
           options: [
             {
               name: "--account",
@@ -2989,7 +2976,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "get-iam-policy",
           description: "Get the IAM policy for a model",
-
           options: [
             {
               name: "--account",
@@ -3192,7 +3178,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing AI Platform models",
-
           options: [
             {
               name: "--account",
@@ -3394,7 +3379,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "remove-iam-policy-binding",
           description: "Remove IAM policy binding for a model",
-
           options: [
             {
               name: "--account",
@@ -3578,7 +3562,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "set-iam-policy",
           description: "Set the IAM policy for a model",
-
           options: [
             {
               name: "--account",
@@ -3749,7 +3732,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an existing AI Platform model",
-
           options: [
             {
               name: "--account",
@@ -4079,7 +4061,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "cancel",
           description: "Cancel an AI Platform operation",
-
           options: [
             {
               name: "--account",
@@ -4241,7 +4222,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an AI Platform operation",
-
           options: [
             {
               name: "--account",
@@ -4403,7 +4383,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing AI Platform jobs",
-
           options: [
             {
               name: "--account",
@@ -4605,7 +4584,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "wait",
           description: "Wait for an AI Platform operation to complete",
-
           options: [
             {
               name: "--account",
@@ -4897,7 +4875,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "predict",
       description: "Run AI Platform online prediction",
-
       options: [
         {
           name: "--account",
@@ -5108,7 +5085,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Create a new AI Platform version",
-
           options: [
             {
               name: "--accelerator",
@@ -5385,7 +5361,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete an existing AI Platform version",
-
           options: [
             {
               name: "--account",
@@ -5557,7 +5532,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe an existing AI Platform version",
-
           options: [
             {
               name: "--account",
@@ -5729,7 +5703,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List existing AI Platform versions",
-
           options: [
             {
               name: "--account",
@@ -5942,7 +5915,6 @@ const completionSpec: Fig.Spec = {
           name: "set-default",
           description:
             "Sets an existing AI Platform version as the default for its model",
-
           options: [
             {
               name: "--account",
@@ -6114,7 +6086,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update an AI Platform version",
-
           options: [
             {
               name: "--account",

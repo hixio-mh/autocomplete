@@ -5,7 +5,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "browse",
       description: "Open the current app in a web browser",
-
       options: [
         {
           name: "--account",
@@ -154,7 +153,6 @@ const completionSpec: Fig.Spec = {
       name: "create",
       description:
         "Create an App Engine app within the current Google Cloud Project",
-
       options: [
         {
           name: "--account",
@@ -298,7 +296,6 @@ const completionSpec: Fig.Spec = {
       name: "deploy",
       description:
         "Deploy the local code and/or configuration of your app to App Engine",
-
       options: [
         {
           name: "--account",
@@ -493,7 +490,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "describe",
       description: "Display all data about an existing service",
-
       options: [
         {
           name: "--account",
@@ -630,7 +626,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Creates a domain mapping",
-
           options: [
             {
               name: "--account",
@@ -789,7 +784,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Deletes a specified domain mapping",
-
           options: [
             {
               name: "--account",
@@ -928,7 +922,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describes a specified domain mapping",
-
           options: [
             {
               name: "--account",
@@ -1067,7 +1060,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "Lists domain mappings",
-
           options: [
             {
               name: "--account",
@@ -1245,7 +1237,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Updates a domain mapping",
-
           options: [
             {
               name: "--account",
@@ -1542,7 +1533,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Creates a firewall rule",
-
           options: [
             {
               name: "--account",
@@ -1712,7 +1702,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Deletes a specified firewall rule",
-
           options: [
             {
               name: "--account",
@@ -1851,7 +1840,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Prints the fields of a specified firewall rule",
-
           options: [
             {
               name: "--account",
@@ -1990,7 +1978,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "Lists the firewall rules",
-
           options: [
             {
               name: "--account",
@@ -2168,7 +2155,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "test-ip",
           description: "Display firewall rules that match a given IP",
-
           options: [
             {
               name: "--account",
@@ -2306,7 +2292,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Updates a firewall rule",
-
           options: [
             {
               name: "--account",
@@ -2604,7 +2589,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "gen-repo-info-file",
       description: "[DEPRECATED] Saves repository information in a file",
-
       options: [
         {
           name: "--account",
@@ -2771,7 +2755,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a specified instance",
-
           options: [
             {
               name: "--account",
@@ -2919,7 +2902,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Display all data about an existing instance",
-
           options: [
             {
               name: "--account",
@@ -3067,7 +3049,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "disable-debug",
           description: "Disable debug mode for an instance",
-
           options: [
             {
               name: "--account",
@@ -3217,7 +3198,6 @@ const completionSpec: Fig.Spec = {
           name: "enable-debug",
           description:
             "Enable debug mode for an instance (only works on the flexible environment)",
-
           options: [
             {
               name: "--account",
@@ -3367,7 +3347,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the instances affiliated with the current App Engine project",
-
           options: [
             {
               name: "--account",
@@ -3556,7 +3535,6 @@ const completionSpec: Fig.Spec = {
           name: "scp",
           description:
             "SCP from or to the VM of an App Engine Flexible instance",
-
           options: [
             {
               name: "--account",
@@ -3718,7 +3696,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "ssh",
           description: "SSH into the VM of an App Engine Flexible instance",
-
           options: [
             {
               name: "--account",
@@ -4016,7 +3993,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "read",
           description: "Reads log entries for the current App Engine app",
-
           options: [
             {
               name: "--account",
@@ -4194,7 +4170,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "tail",
           description: "Streams logs for App Engine apps",
-
           options: [
             {
               name: "--account",
@@ -4494,7 +4469,6 @@ const completionSpec: Fig.Spec = {
       name: "open-console",
       description:
         "Open the App Engine dashboard, or log viewer, in a web browser",
-
       options: [
         {
           name: "--account",
@@ -4646,7 +4620,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describes the operation",
-
           options: [
             {
               name: "--account",
@@ -4784,7 +4757,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List the operations",
-
           options: [
             {
               name: "--account",
@@ -4966,7 +4938,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "wait",
           description: "Polls an operation until completion",
-
           options: [
             {
               name: "--account",
@@ -5240,7 +5211,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the availability of flex and standard environments for each region",
-
           options: [
             {
               name: "--account",
@@ -5552,7 +5522,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "browse",
           description: "Open the specified service(s) in a browser",
-
           options: [
             {
               name: "--account",
@@ -5696,7 +5665,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete services in the current project",
-
           options: [
             {
               name: "--account",
@@ -5834,7 +5802,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Display all data about an existing service",
-
           options: [
             {
               name: "--account",
@@ -5972,7 +5939,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List your existing services",
-
           options: [
             {
               name: "--account",
@@ -6150,7 +6116,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "set-traffic",
           description: "Set traffic splitting settings",
-
           options: [
             {
               name: "--account",
@@ -6314,7 +6279,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Update service-level settings",
-
           options: [
             {
               name: "--account",
@@ -6601,7 +6565,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "create",
           description: "Uploads a new SSL certificate",
-
           options: [
             {
               name: "--account",
@@ -6766,7 +6729,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Deletes an SSL certificate",
-
           options: [
             {
               name: "--account",
@@ -6905,7 +6867,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describes a specified SSL certificate",
-
           options: [
             {
               name: "--account",
@@ -7044,7 +7005,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "Lists the SSL certificates",
-
           options: [
             {
               name: "--account",
@@ -7222,7 +7182,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Updates an SSL certificate",
-
           options: [
             {
               name: "--account",
@@ -7520,7 +7479,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "update",
       description: "Updates an App Engine application",
-
       options: [
         {
           name: "--account",
@@ -7662,7 +7620,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "browse",
           description: "Open the specified versions in a browser",
-
           options: [
             {
               name: "--account",
@@ -7816,7 +7773,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a specified version",
-
           options: [
             {
               name: "--account",
@@ -7965,7 +7921,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Display all data about an existing version",
-
           options: [
             {
               name: "--account",
@@ -8113,7 +8068,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List your existing versions",
-
           options: [
             {
               name: "--account",
@@ -8305,7 +8259,6 @@ const completionSpec: Fig.Spec = {
           name: "migrate",
           description:
             "Migrate traffic from one version to another for a set of services",
-
           options: [
             {
               name: "--account",
@@ -8453,7 +8406,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "start",
           description: "Start serving specified versions",
-
           options: [
             {
               name: "--account",
@@ -8602,7 +8554,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "stop",
           description: "Stop serving specified versions",
-
           options: [
             {
               name: "--account",

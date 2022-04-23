@@ -13,7 +13,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe the details of a collection for an API",
-
               options: [
                 {
                   name: "--account",
@@ -162,7 +161,6 @@ const completionSpec: Fig.Spec = {
               name: "lint",
               description:
                 "Show which collections have non-compliant list API methods",
-
               options: [
                 {
                   name: "--account",
@@ -344,7 +342,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List the resource collections for an API",
-
               options: [
                 {
                   name: "--account",
@@ -656,7 +653,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "describe",
           description: "Describe the details of an API registered in gcloud",
-
           options: [
             {
               name: "--account",
@@ -810,7 +806,6 @@ const completionSpec: Fig.Spec = {
               name: "describe",
               description:
                 "Describe the details of an API in discovery service",
-
               options: [
                 {
                   name: "--account",
@@ -948,7 +943,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List the APIs available via discovery service",
-
               options: [
                 {
                   name: "--account",
@@ -1246,7 +1240,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List the APIs registered in gcloud",
-
           options: [
             {
               name: "--account",
@@ -1413,7 +1406,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe the details of a proto message in an API",
-
               options: [
                 {
                   name: "--account",
@@ -1572,7 +1564,6 @@ const completionSpec: Fig.Spec = {
               name: "generate-export-schemas",
               description:
                 "Generate YAML export schemas for a message in a given API",
-
               options: [
                 {
                   name: "--account",
@@ -1741,7 +1732,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "list",
               description: "List the proto messages for an API",
-
               options: [
                 {
                   name: "--account",
@@ -2059,7 +2049,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "call",
               description: "Calls an API method with specific parameters",
-
               options: [
                 {
                   name: "--account",
@@ -2223,7 +2212,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "describe",
               description: "Describe the details of a collection for an API",
-
               options: [
                 {
                   name: "--account",
@@ -2383,7 +2371,6 @@ const completionSpec: Fig.Spec = {
               name: "list",
               description:
                 "List the methods of a resource collection for an API",
-
               options: [
                 {
                   name: "--account",
@@ -2697,7 +2684,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "regen",
           description: "Regenerate given API(s) in gcloud",
-
           options: [
             {
               name: "--account",
@@ -3005,7 +2991,6 @@ const completionSpec: Fig.Spec = {
               name: "list",
               description:
                 "List all Cloud SDK command argument completer objects",
-
               options: [
                 {
                   name: "--account",
@@ -3183,7 +3168,6 @@ const completionSpec: Fig.Spec = {
             {
               name: "run",
               description: "Cloud SDK completer module tester",
-
               options: [
                 {
                   name: "--account",
@@ -3517,7 +3501,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "delete",
           description: "Delete a persistent cache or tables in the cache",
-
           options: [
             {
               name: "--account",
@@ -3667,7 +3650,6 @@ const completionSpec: Fig.Spec = {
           name: "list",
           description:
             "List the tables or table contents in a persistent cache",
-
           options: [
             {
               name: "--account",
@@ -3995,7 +3977,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "list",
           description: "List the installed gcloud interactive CLI trees",
-
           options: [
             {
               name: "--account",
@@ -4139,7 +4120,6 @@ const completionSpec: Fig.Spec = {
           name: "update",
           description:
             "Updates gcloud CLI command trees in the installation directory",
-
           options: [
             {
               name: "--account",
@@ -4437,7 +4417,6 @@ const completionSpec: Fig.Spec = {
       name: "debug",
       description:
         "Run an interactive debug console with the Cloud SDK libraries loaded",
-
       options: [
         {
           name: "--account",
@@ -4584,7 +4563,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "update",
           description: "Generates the flag coverage tree",
-
           options: [
             {
               name: "--account",
@@ -4863,7 +4841,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "generate-command",
       description: "Generate YAML file to implement given command",
-
       options: [
         {
           name: "--account",
@@ -5011,7 +4988,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "generate-help-docs",
       description: "Generate and/or update help document directories",
-
       options: [
         {
           name: "--account",
@@ -5214,7 +5190,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "lint",
       description: "Validate gcloud flags according to Cloud SDK CLI Style",
-
       options: [
         {
           name: "--account",
@@ -5353,7 +5328,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "list-commands",
       description: "List all possible gcloud commands excluding flags",
-
       options: [
         {
           name: "--account",
@@ -5510,7 +5484,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "list-files-for-upload",
       description: "List files for upload",
-
       options: [
         {
           name: "--account",
@@ -5649,7 +5622,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "list-from-json",
       description: "Read JSON data and list it on the standard output",
-
       options: [
         {
           name: "--account",
@@ -5829,7 +5801,6 @@ const completionSpec: Fig.Spec = {
       name: "list-gcloud",
       description:
         "List the gcloud CLI command tree with flag, positional and help details",
-
       options: [
         {
           name: "--account",
@@ -5978,7 +5949,6 @@ const completionSpec: Fig.Spec = {
       name: "render-markdown",
       description:
         "Uses gcloud's markdown renderer to render the given markdown file",
-
       options: [
         {
           name: "--account",
@@ -6138,7 +6108,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "generate",
           description: "Cloud SDK resource test URI generator",
-
           options: [
             {
               name: "--account",
@@ -6301,7 +6270,6 @@ const completionSpec: Fig.Spec = {
         {
           name: "parse",
           description: "Cloud SDK resource parser module tester",
-
           options: [
             {
               name: "--account",
@@ -6640,7 +6608,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "test",
       description: "Run miscellaneous gcloud command and CLI test scenarios",
-
       options: [
         {
           name: "--account",
@@ -6859,7 +6826,6 @@ const completionSpec: Fig.Spec = {
     {
       name: "validate-yaml",
       description: "Validate a YAML file against a JSON Schema",
-
       options: [
         {
           name: "--account",
